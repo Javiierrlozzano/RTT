@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('Latitud')->nullable();;
             $table->string('Longitud')->nullable();;
             $table->string('Estado')->nullable();;
+            $table->timestamps();
             $table->foreign('Movil_id')->references('id')->on('movils')->onDelete('cascade');
             $table->foreign('User_id')->references('id')->on('users')->onDelete('cascade');
         });

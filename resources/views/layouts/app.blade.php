@@ -329,7 +329,7 @@
                                         </a>
                                         <!--Submenu-->
                                         <ul class="collapse">
-                                            <li><a href="{{ route('sedes.index') }}">Sucursal</a></li>
+                                            <li><a href="">Sucursal</a></li>
                                             <li><a href="">Programas</a></li>
                                             <li><a href="">Sistemas Operativos</a></li>
                                             <li><a href="">Marca</a></li>
