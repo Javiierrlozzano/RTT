@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Auth::routes();
-
+Route::resource('tarifas',App\Http\Controllers\TarifaController::class);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

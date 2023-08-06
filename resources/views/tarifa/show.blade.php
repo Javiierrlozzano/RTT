@@ -25,6 +25,10 @@
                             {{ $tarifa->Horario1 }}
                         </div>
                         <div class="form-group">
+                            <strong>Horario2:</strong>
+                            {{ $tarifa->Horario2 }}
+                        </div>
+                        <div class="form-group">
                             <strong>Valorminimo:</strong>
                             {{ $tarifa->ValorMinimo }}
                         </div>

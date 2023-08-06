@@ -37,6 +37,7 @@
                                         <th>No</th>
                                         
 										<th>Horario1</th>
+										<th>Horario2</th>
 										<th>Valorminimo</th>
 										<th>Valorkilometro</th>
 										<th>Ruta</th>
@@ -53,6 +54,7 @@
                                             <td>{{ ++$i }}</td>
                                             
 											<td>{{ $tarifa->Horario1 }}</td>
+											<td>{{ $tarifa->Horario2 }}</td>
 											<td>{{ $tarifa->ValorMinimo }}</td>
 											<td>{{ $tarifa->ValorKilometro }}</td>
 											<td>{{ $tarifa->Ruta }}</td>

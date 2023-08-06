@@ -20,6 +20,7 @@ return new class extends Migration
             $table->string('Sn')->nullable();;
             $table->string('Color')->nullable();;
             $table->string('Marca')->nullable();;
+            $table->timestamps();
         });
     }
 

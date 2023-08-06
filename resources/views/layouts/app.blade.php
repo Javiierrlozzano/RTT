@@ -251,74 +251,6 @@
                                             </span>
                                         </a>
                                     </li>
-                                    <li class="list-divider"></li>
-                                    <li>
-                                        <a href="">
-                                            <i class="demo-pli-computer-secure"></i>
-                                            <span class="menu-title">
-                                                Crear Requerimiento
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <!--Menu list item-->
-                                    <li>
-                                        <a href="#">
-                                            <i class="demo-pli-receipt-4"></i>
-                                            <span class="menu-title">Utilidades</span>
-                                            <i class="arrow"></i>
-                                        </a>
-                                        <!--Submenu-->
-                                        <ul class="collapse">
-                                            <li><a href="">Inventario Equipo</a></li>
-                                            <li><a href="tables-bootstrap.html">Mantenimientos</a></li>
-                                            <li><a href="tables-datatable.html">Reparaciones Nv2</a></li>
-                                            <li><a href="tables-footable.html">Envio Equipos</a></li>
-
-                                        </ul>
-                                    </li>
-                                    <li class="list-divider"></li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="demo-pli-split-vertical-2"></i>
-                                            <span class="menu-title">Productos</span>
-                                            <i class="arrow"></i>
-                                        </a>
-                                        <!--Submenu-->
-                                        <ul class="collapse">
-                                            <li>
-                                                <a href="#">
-                                                    <span class="menu-title">Administracion Producto</span>
-                                                    <i class="arrow"></i>
-                                                </a>
-                                                <!--Submenu-->
-                                                <ul class="collapse">
-                                                    <li><a href="">Kardex</a></li>
-                                                    <li><a href="">Actualizacion Precio</a></li>
-
-                                                    <li><a href="">Estadisticas</a></li>
-                                                    <li><a href="">Crear Producto</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="list-divider"></li>
-                                            <!--Submenu-->
-                                            <li>
-                                                <a href="#">
-                                                    <span class="menu-title">Administracion Producto</span>
-                                                    <i class="arrow"></i>
-                                                </a>
-                                                <!--Submenu-->
-                                                <ul class="collapse">
-                                                    <li><a href="">Kardex</a></li>
-                                                    <li><a href="">Actualizacion Precio</a></li>
-
-                                                    <li><a href="">Estadisticas</a></li>
-                                                    <li><a href="">Crear Producto</a></li>
-                                                </ul>
-                                            </li>
-                                            <li class="list-divider"></li>
-                                        </ul>
-                                    </li>
-                                    <li class="list-divider"></li>
                                     <!--Category name-->
                                     <li>
                                         <a href="#">
@@ -329,13 +261,8 @@
                                         </a>
                                         <!--Submenu-->
                                         <ul class="collapse">
-                                            <li><a href="">Sucursal</a></li>
-                                            <li><a href="">Programas</a></li>
-                                            <li><a href="">Sistemas Operativos</a></li>
-                                            <li><a href="">Marca</a></li>
-                                            <li><a href="">Tipo Equipo</a></li>
-                                            <li><a href="">Modelos Equipo</a></li>
-                                            <li><a href="">Offices</a></li>
+                                            <li><a href="{{ route('tarifas.index') }}">Tarifas</a></li>
+                                      
                                         </ul>
                                     </li>
                                 </ul>

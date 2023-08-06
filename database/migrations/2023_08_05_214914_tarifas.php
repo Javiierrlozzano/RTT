@@ -15,12 +15,14 @@ return new class extends Migration
             $table->engine='InnoDB';
             $table->bigIncrements('id');
             $table->string('Horario1')->nullable();
+            $table->string('Horario2')->nullable();
             $table->string('ValorMinimo')->nullable();
             $table->string('ValorKilometro')->nullable();;
             $table->string('Ruta')->nullable();;
             $table->string('Latitud')->nullable();;
             $table->string('Longitud')->nullable();;
             $table->string('RadioProximacion')->nullable();;
+            $table->timestamps();
         });
     }
 

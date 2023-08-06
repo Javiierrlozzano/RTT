@@ -9,12 +9,15 @@ use Illuminate\Database\Eloquent\Model;
  *
  * @property $id
  * @property $Horario1
+ * @property $Horario2
  * @property $ValorMinimo
  * @property $ValorKilometro
  * @property $Ruta
  * @property $Latitud
  * @property $Longitud
  * @property $RadioProximacion
+ * @property $created_at
+ * @property $updated_at
  *
  * @property Registro[] $registros
  * @package App
@@ -33,7 +36,7 @@ class Tarifa extends Model
      *
      * @var array
      */
-    protected $fillable = ['Horario1','ValorMinimo','ValorKilometro','Ruta','Latitud','Longitud','RadioProximacion'];
+    protected $fillable = ['Horario1','Horario2','ValorMinimo','ValorKilometro','Ruta','Latitud','Longitud','RadioProximacion'];
 
 
     /**
